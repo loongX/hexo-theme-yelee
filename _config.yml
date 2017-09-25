@@ -12,9 +12,11 @@ menu:
   #随笔: /tags/随笔
   标签云: /tags/
   关于我: /about/
+  
 
+  
 # Link to your avatar | 填写头像地址
-avatar: /img/avatar.png
+avatar: /img/im.jpg
 
 # Small icon of Your site | 站点小图标地址
 favicon: /favicon.png
@@ -31,7 +33,7 @@ favicon: /favicon.png
 root_url: 
 
 # Year of Site Creation | 网站成立年份
-since: 2016
+since: 2017
 
 # Social info. Bar | 社交信息展示
 ## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"
@@ -40,17 +42,16 @@ since: 2016
 ## https://github.com/hexojs/hexo-generator-feed
 
 subnav:
-  Email: "mailto:123@123.com"
+  Email: "mailto:long8086@foxmail.com"
   #新浪微博: "sina weibo"
-  GitHub: "#"
-  #V2EX: "#"
-  RSS: "/atom.xml"
+  GitHub: "https://github.com/loongX"
+  #V2EX: "#"  
   #知乎: "zhihu"
   #豆瓣: "douban"
   #简书: "jianshu"
   #SegmentFault: ""
   #博客园: "cnblogs"
-  #CSDN: ""
+  CSDN: "http://blog.csdn.net/loongago"
   #Coding: ""
   #网易云音乐: "netease"
   #虾米音乐: "xiami"
@@ -75,6 +76,7 @@ subnav:
   #Medium: ""
   #TiddlyWiki: ""
   #Tumblr: ""
+  RSS: "/atom.xml"
   #_500px: ""
 
 # >>> Conments 评论系统 <<<
@@ -127,7 +129,7 @@ base_font_size: 16  #px, 16 - 24
 color_scheme: 
 
 highlight_style:
-  #on: true
+  on: true
   inline_code: 1  # Value: 0 - 9 可选
   code_block: 1  # Value: 0 - 4 
   # Set inline_code to style highlight text
@@ -170,7 +172,7 @@ jquery_ui: false
 
 # Max width of right cloumn | 限制右侧内容的宽带 
 limit_article_width: 
-  on: false
+  on: true
   max_width: 60 # em
 
 # >>> Small features | 小功能设置 <<<
@@ -178,6 +180,7 @@ limit_article_width:
 # 是否开启边栏多标签切换
 # Birdhouse button in left column
 tagcloud: true
+
 
 # Blogroll, Link exchange | 友情链接
 friends:
@@ -187,7 +190,7 @@ friends:
 #friends: false
 
 #是否开启“关于我”。
-aboutme: 专注于前端
+aboutme: 专注于Android
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接
@@ -230,8 +233,8 @@ tab_title_change:
 ## Insatall below plugin to take effect | 使用搜索需先安装对应插件
 ## https://github.com/PaicHyperionDev/hexo-generator-search
 search: 
-  #on: true
-  onload: false
+  on: true
+  onload: true
   ## true: get search.xml file when the page has loaded
   ## false: get the file when search box gets focus
 
@@ -241,7 +244,7 @@ fancybox: true
 
 # Display Math(LaTeX, MathML...) | 数学公式支持
 ## https://www.mathjax.org/
-mathjax: false
+mathjax: true
 
 # Socail Share | 是否开启分享
 share: 
